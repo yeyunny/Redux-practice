@@ -46,6 +46,7 @@ const Counter = () => {
 
 export default Counter;
 
+// 클래스 기반 컴포넌트를 리덕스에 연결하는 방법
 // class Counter extends Component {
 //   incrementHandler() {
 //     this.props.increment();
