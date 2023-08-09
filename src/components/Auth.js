@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import classes from "./Auth.module.css";
 
 // redux action 함수 import
-import { authActions } from "../store";
+import { authActions } from "../store/auth";
 
 const Auth = () => {
   const dispatch = useDispatch();
