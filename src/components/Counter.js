@@ -11,8 +11,8 @@ const Counter = () => {
   // state: 실행될 때 리덕스 상태를 의미
   // state를 넣고 state.counter라는 이 컴포넌트에서 필요로 하는 상태 부분 받음
   // store의 상태 값이 변경될 때마다 자동으로 업데이트 되고 최신카운터 받음!!!
-  const counter = useSelector((state) => state.counter);
-  const show = useSelector((state) => state.showCounter);
+  const counter = useSelector((state) => state.counter.counter);
+  const show = useSelector((state) => state.counter.showCounter);
 
   const incrementHandler = () => {
     dispatch(counterActions.increment());
